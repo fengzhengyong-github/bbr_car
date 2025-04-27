@@ -16,5 +16,9 @@ sudo apt install ros-humble-gazebo-ros2-control
 ##  构建包
 ```
 mkdir bbr_car_ws/src && cd bbr_car_ws/src
-git clone https://github.com/DDTRobot/TITA_Description.git
+git clone https://github.com/chenanjie233/bbr_car_description.git
+cd ..
+colcon build
+source install/setup.bash
+ros2 launch bbr_robot_description gazebo_sim.launch.py
 ```
