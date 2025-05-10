@@ -20,7 +20,7 @@ git clone https://github.com/fengzhengyong-github/bbr_car.git
 cd ..
 colcon build
 source install/setup.bash
-ros2 launch bbr_robot_description gazebo_sim.launch.py
+ros2 launch bbr_car gazebo_sim.launch.py
 ```
 可用ros2自带的键盘控制节点控制小车轮子，重新打开一个终端，输入以下命令
 ```
