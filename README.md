@@ -4,13 +4,13 @@
 **Gazebo**：classic
 ## 依赖
 ```
-sudo apt install ros-humble-robot-state-publisher
-sudo apt install ros-humble-joint-state-publisher
-sudo apt install ros-humble-xacro
-sudo apt install ros-humble-gazebo-ros-pkgs
-sudo apt install ros-humble-ros2-control
-sudo apt install ros-humble-ros2-controllers
-sudo apt install ros-humble-gazebo-ros2-control
+sudo apt install ros-$ROS_DISTRO-robot-state-publisher
+sudo apt install ros-$ROS_DISTRO-joint-state-publisher
+sudo apt install ros-$ROS_DISTRO-xacro
+sudo apt install ros-$ROS_DISTRO-gazebo-ros-pkgs
+sudo apt install ros-$ROS_DISTRO-gazebo-ros2-control
+sudo apt install ros-$ROS_DISTRO-ros2-control
+sudo apt install ros-$ROS_DISTRO-ros2-controllers
 ```
 可能有多余的依赖，但不知道是哪些，全装上就是了。
 ##  构建包
