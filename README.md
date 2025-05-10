@@ -16,7 +16,7 @@ sudo apt install ros-$ROS_DISTRO-ros2-controllers
 ##  构建包
 ```
 mkdir -p bbr_car_ws/src && cd bbr_car_ws/src
-git clone https://github.com/chenanjie233/bbr_car_description.git
+git clone https://github.com/fengzhengyong-github/bbr_car_description.git
 cd ..
 colcon build
 source install/setup.bash
